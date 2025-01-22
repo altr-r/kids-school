@@ -481,4 +481,14 @@ footer {
   font-weight: 700;
 }
 
-
+@media screen and (max-width: 576px) {
+  .nav-bar-content {
+    display: none;
+  }
+  .primary {
+    display: none;
+  }
+  .left-right-arrow {
+    display: none;
+  }
+}
