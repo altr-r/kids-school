@@ -476,7 +476,7 @@ footer {
 }
 
 .social-group .title {
-  margin-bottom: 20px;
+  margin: 50px;
   font-size: 1.5rem;
   font-weight: 700;
 }
@@ -490,5 +490,148 @@ footer {
   }
   .left-right-arrow {
     display: none;
+  }
+  .secondary {
+    display: block;
+  }
+  .navbar {
+    border: 0.5px solid #fea301;
+    margin: -8px;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+    overflow-x: hidden;
+  }
+
+  .section-title {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .banner-desc {
+    margin-left: 8%;
+  }
+
+  .banner-image {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .banner .description {
+    font-size: 14px;
+    font-weight: 600px;
+    width: 357px;
+    text-align: center;
+  }
+
+  .banner-button {
+    margin: 18px 113px 2px 113px;
+  }
+
+  .card-container {
+    flex-direction: column;
+  }
+
+  .left-story {
+    display: none;
+  }
+  .curriculum-title {
+    font-size: 26px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+
+  #card1,
+  #card2,
+  #card3 {
+    margin: 2px;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+  .card-description {
+    font-size: 11px;
+    font-weight: 500px;
+    list-style: none;
+  }
+
+  #card-button1,
+  #card-button2,
+  #card-button3 {
+    font-size: 10.5px;
+  }
+
+  .story {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .date1 {
+    display: inline-block;
+    background-color: #5d58f0;
+    border-radius: 20px;
+    font-size: 10px;
+
+    padding: 15px 20px 15px 20px;
+    position: relative;
+    top: -30px;
+    transform: translateX(18px);
+    color: white;
+  }
+  .date2 {
+    display: inline-block;
+    background-color: #95b226;
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 15px 20px 15px 20px;
+    position: relative;
+    top: -30px;
+    transform: translateX(18px);
+    color: white;
+  }
+
+  .right-title {
+    font-size: 10px;
+    padding: 0px 0px 0px;
+    text-align: left;
+    position: relative;
+    top: -15px;
+  }
+  .story-button {
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .school {
+    display: none;
+  }
+
+  .about {
+    margin-left: 10px;
+  }
+
+  .social-group {
+    margin-left: 10px;
+  }
+
+  .social-icons img {
+    position: relative;
+    top: -30px;
+    left: 47.5px;
+  }
+
+  .info {
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
