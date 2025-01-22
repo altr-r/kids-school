@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+.body {
+  font-family: "quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.main {
+  max-width: 1440px;
+  margin: 0px auto;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.orange-color {
+  color: #fea301;
+}
+
+.turqouise-color {
+  color: #05d4df;
+}
+
+.lavender-color {
+  color: #5d58ef;
+}
+
+.sky-blue-color {
+  color: #01acfd;
+}
+
+.button {
+  align-items: center;
+  justify-content: center;
+}
+
+.primary {
+  width: 197px;
+  height: 50px;
+  border-radius: 12px;
+  background-color: #fea301;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600px;
+  border: none;
+}
+
+.primary:hover {
+  background-color: white;
+  color: #fea301;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 600px;
+}
+
+.secondary {
+  width: 40px;
+  height: 40px;
+  display: none;
+  border: none;
+  background-color: white;
+  font-size: 2rem;
+  align-items: center;
+  margin-top: 12px;
+  font-weight: 600px;
+}
+
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav {
+  justify-content: space-between;
+}
+
+.nav-bar-content li {
+  list-style: none;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.nav-bar-content .nav-texts a {
+  text-decoration: none;
+}
+
+.nav-texts {
+  gap: 32px;
+}
+
+.school {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.icon {
+  align-items: center;
+}
+
+.marquee {
+  background-color: #ffde21;
+}
+
+.banner {
+  justify-content: space-between;
+}
+
+.banner-content {
+  max-width: 640px;
+}
+
+.section-title {
+  margin-top: 122px;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 1.25rem;
+  font-weight: 600px;
+}
+
+#banner-image{
+  width: 100%;
+}
+
+.banner-button {
+  width: 197px;
+  height: 50px;
+  border-radius: 12px;
+  background-color: black;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600px;
+  border: none;
+}
+
+.banner-button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
