@@ -417,3 +417,68 @@
   cursor: pointer;
   font-weight: 600px;
 }
+
+footer {
+  background-color: rgb(1, 172, 253);
+  color: white;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.info {
+  padding-top: 120px;
+  padding-bottom: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-title {
+  align-items: center;
+}
+
+.info-logo {
+  position: relative;
+  top: -55px;
+}
+
+.info-heading {
+  font-weight: 700px;
+  font-size: 2.625rem;
+}
+
+.info-description {
+  position: relative;
+  left: -3.125rem;
+  font-size: 1.25rem;
+}
+
+.about {
+  margin-left: 172px;
+  margin-bottom: 60px;
+}
+
+.about-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.about h4 {
+  margin: 0px;
+  font-weight: 00;
+  font-size: 1.25rem;
+}
+
+.social-group {
+  margin-bottom: 120px;
+}
+
+.social-group .title {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+
